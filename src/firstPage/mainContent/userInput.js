@@ -1,5 +1,5 @@
 import React from "react";
-import "font-awesome/css/font-awesome.min.css"; // Import Font Awesome CSS
+// import "font-awesome/css/font-awesome.min.css"; // Import Font Awesome CSS
 
 function UserInputs(props) {
   return (

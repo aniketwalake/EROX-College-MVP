@@ -4,11 +4,13 @@ import UserRecents from "./mainContent/userRecent";
 import UspErox from "./mainContent/uspErox";
 import HowErox from "./mainContent/howErox";
 import AboutErox from "./mainContent/aboutErox";
+import Userprintsettings from "./mainContent/userPrintsettings";
 export default function Main(props) {
     return(
         <>
             <div className="user-form-div">
-                <UserInputs/>
+                {/* <UserInputs/> */}
+                <Userprintsettings></Userprintsettings>
             </div>
             <div className="user-Recent-div">
                 <UserRecents/>
