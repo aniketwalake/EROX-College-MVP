@@ -1,6 +1,6 @@
 import React from "react";
-import UserInputs from "./mainContent/userInput";
-import UserRecents from "./mainContent/userRecent";
+// import UserInputs from "./mainContent/userInput";
+// import UserRecents from "./mainContent/userRecent";
 import UspErox from "./mainContent/uspErox";
 import HowErox from "./mainContent/howErox";
 import AboutErox from "./mainContent/aboutErox";
@@ -12,9 +12,9 @@ export default function Main(props) {
                 {/* <UserInputs/> */}
                 <Userprintsettings></Userprintsettings>
             </div>
-            <div className="user-Recent-div">
+            {/* <div className="user-Recent-div">
                 <UserRecents/>
-            </div>
+            </div> */}
             <div className="user-usp-erox">
                 <UspErox/>
             </div>
