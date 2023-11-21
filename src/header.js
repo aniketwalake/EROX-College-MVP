@@ -9,10 +9,10 @@ function Header() {
                  </div>
                  <nav>
                     <ul className="header-nav-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home" style={{textDecoration:"none"}}>Home</a></li>
+                        <li><a href="#aboutus" style={{textDecoration:"none"}}>About Us</a></li>
+                        <li><a href="#services" style={{textDecoration:"none"}}>Services</a></li>
+                        <li><a href="#contact" style={{textDecoration:"none"}}>Contact</a></li>
                     </ul>
                  </nav>
             </header>
